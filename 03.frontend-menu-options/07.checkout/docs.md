@@ -6,8 +6,10 @@ taxonomy:
 visible: true
 ---
 
-This menu option display checkout form to allow users to process checkout to complete purchase for the documents which he added to cart. It's a quick way to allow users to go to checkout page directly form menu item (this, however, is optional and does not need to be created)
+Use **Checkout** if you want customers to have a direct link to the checkout form after adding documents to their cart. This menu item is optional. Customers can also reach checkout through the normal order flow.
 
-If you want to use this option, create a menu item to link to **Checkout** menu option of DMS
+When you [create the menu item](/frontend-menu-options#create-a-menu-item), choose **Checkout** under **Documents Seller**. If checkout has no documents to show, visitors see **Your cart is empty** and return to the home page.
+
+See [Checkout and Accounts](/getting-started/configuration/checkout-and-accounts) for cart and checkout settings.
 
 ![Checkout](checkout.png)

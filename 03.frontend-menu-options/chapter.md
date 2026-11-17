@@ -4,4 +4,19 @@ taxonomy:
     category: docs
 ---
 
-Explore the menu options in Documents Seller which you can use to display categories, documents, orders history... to your customers in the frontend of your site.
+Use Documents Seller menu items to help customers browse your catalog, open a specific product, and find their purchases. In Documents Seller, each downloadable product is a document.
+
+| Guide | When to use it |
+| --- | --- |
+| [Categories List](/frontend-menu-options/categories-list) | Let customers browse top-level categories or the subcategories of a selected parent in a list, columns, or a grid. |
+| [Category Layouts](/frontend-menu-options/category-default-layout) | Link directly to the documents in a category or display the full catalog. Choose the default list, columns, table, or grid. |
+| [Document Detail](/frontend-menu-options/document-detail) | Give a specific document its own link in a site menu. |
+| [Orders History](/frontend-menu-options/orders-history) | Give signed-in customers access to their purchases, available downloads, and invoices. |
+| [Checkout](/frontend-menu-options/checkout) | Give customers a direct link to checkout after they add documents to their cart. |
+
+## Create a menu item
+
+1. In the Joomla administrator, open **Menus** and select the site menu you want to edit. Click **New** and enter a **Title**.
+2. Next to **Menu Item Type**, click **Select**, expand **Documents Seller**, and choose the menu item type described in the guide above.
+3. Set the options for that menu item type, choose the Joomla **Access** level, and click **Save & Close**.
+4. Open the menu item on your site and test it with the access level your customers will use.
