@@ -1,6 +1,6 @@
 ---
-title: 'Do you have trial version of the extension?'
+title: 'Is there a trial version of Documents Seller?'
 visible: true
 ---
 
-No, we do not have trial version of the extension for you to try. However, we do provide money back warranty, so if you want, you can go ahead to purchase a copy of the extension to try. If it's not working as expected, you can request us for refund.
+No. You can purchase a copy of Documents Seller to try it on your own Joomla site. If it does not work as expected, you can request a refund under our money-back guarantee.

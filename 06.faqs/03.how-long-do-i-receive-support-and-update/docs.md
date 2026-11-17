@@ -1,6 +1,6 @@
 ---
-title: 'How long do I receive support and update?'
+title: 'How long do I receive support and updates?'
 visible: true
 ---
 
-When you purchase any of our products, you will get free support and update for one year. Also, please note that, for each purchase, you will only receive support from us for one site only. If you need support for second site for example, you will need to purchase a separate license of Membership Pro to receive support from us for the second site.
+Your Documents Seller purchase includes support and updates for one year from the date of purchase. Support covers one website per purchase. To continue receiving support and updates after that year, renew your subscription.
