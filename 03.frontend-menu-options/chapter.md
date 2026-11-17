@@ -15,7 +15,7 @@ Use Joomla menu items to create pages where customers can browse your catalog, o
 | [Document Detail](/frontend-menu-options/document-detail) | Give a specific document its own link in a site menu. |
 | [Orders History](/frontend-menu-options/orders-history) | Give signed-in customers access to their purchases, available downloads, and invoices. |
 | [Checkout](/frontend-menu-options/checkout) | Give customers a direct link to checkout after they add documents to their cart. |
-| [Download Ids](/setup/software-update-download-ids#let-customers-manage-their-download-ids) | Let signed-in customers manage the IDs they use to download software updates. |
+| [Download Ids](/joomla-extension-updates#let-customers-manage-their-download-ids) | Let signed-in customers of a Joomla extension store manage the IDs they enter in Joomla's updater. |
 
 ## Create a menu item
 

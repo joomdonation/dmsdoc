@@ -63,11 +63,9 @@ These fields appear when **Activate Cart Feature** is disabled and customers ord
 
 Under **Members Discount Setting**, use **Discount Type** to choose a percentage or a fixed amount in the store currency. Enter the value in **Discount Amounts**. Choose Joomla user groups in **Groups** to limit the discount to signed-in members of those groups, or leave **Groups** empty to offer the discount to all signed-in users. For different amounts per group, enter one comma-separated value per group in the order the groups appear after saving. Customers who belong to several selected groups receive the largest applicable discount.
 
-## Offer a separate software update package
+## Offer updates for a Joomla extension
 
-If you distribute software updates through Download IDs, place the update file in an `updates` subfolder under **Documents Path**. The **Update Package** field appears when that folder exists. Choose the package there and keep **Choose File** set to the standard customer download. If no update package is selected, Download ID requests serve the standard file.
-
-See [Software Update Download IDs](/setup/software-update-download-ids) to add the customer menu item and connect your updater.
+If this document is a Joomla extension that you sell, you can use **Update Package** to choose the ZIP that Joomla's updater installs on customer sites. See [Joomla Extension Updates](/joomla-extension-updates#upload-and-select-an-update-package) to upload the ZIP and connect the extension to Joomla's update system.
 
 ## Manage documents
 

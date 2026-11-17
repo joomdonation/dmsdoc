@@ -21,8 +21,4 @@ Use these guides to build your catalog, choose how customers pay, and customize 
 - [Translation](/setup/translation) explains how to edit interface text and translate Documents Seller into other languages.
 - [Enable Captcha](/setup/enable-captcha) shows how to add your Joomla CAPTCHA to the order form.
 
-## Distribute software updates
-
-- [Software Update Download IDs](/setup/software-update-download-ids) explains how customers can get updates for software they have purchased from your store.
-
 When your catalog is ready, use [Storefront Menus and Modules](/frontend-menu-options) to give customers a way to browse it.

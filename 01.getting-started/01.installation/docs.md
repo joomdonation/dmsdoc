@@ -26,7 +26,7 @@ Back up your Joomla site files and database before updating. Install the new ver
 3. Go to **System → Manage → Plugins** and make sure **Installer - Documents Seller** is enabled.
 4. When an update is available, go to **System → Update → Extensions**, select the Documents Seller update, and click **Update**.
 
-If you sell software through your store, see [Software Update Download IDs](/setup/software-update-download-ids) for the IDs you issue to your own customers.
+If you sell your own Joomla extensions through Documents Seller, see [Joomla Extension Updates](/joomla-extension-updates) to set up updates for those extensions on your customers' sites.
 
 ### Update Manually
 Download the latest package from [My Downloads](https://joomdonation.com/my-downloads.html) and upload it using the [installation steps](#installation).
