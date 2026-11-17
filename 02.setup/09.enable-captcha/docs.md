@@ -5,9 +5,9 @@ taxonomy:
         - docs
 ---
 
-If you want to enable Captcha to protect order form in **Documents Seller** from spams, please follow the instructions below:
+Enable CAPTCHA to reduce automated submissions on the Documents Seller order form.
 
-1. Configure your site to use recaptcha, see instructions from Joomla documentation at [https://docs.joomla.org/J3.x:Google_ReCaptcha](https://docs.joomla.org/J3.x:Google_ReCaptcha)
-2. Go to Documents Seller -> Configuration, look at **Enable Captch** config option and change it to one of the following value:
-* **Yes**: The system will show captcha protection on order form for both Public and Logged in users.
-* **Only for public users**: The system will only show captcha on order form for Public users (who is not having account or not logged in only) only.
+1. In Joomla's **Plugins** screen, configure and enable a CAPTCHA plugin compatible with your Joomla version.
+2. In Joomla's **Global Configuration**, select that plugin in **Default Captcha** and save.
+3. Go to **Documents Seller → Configuration → General**, set **Enable Captcha** to **Yes**, and save. This enables CAPTCHA on the order form for guests and signed-in customers.
+4. Open the order form on the frontend and verify that you can complete and submit it with CAPTCHA enabled.

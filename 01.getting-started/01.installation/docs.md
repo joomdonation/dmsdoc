@@ -20,7 +20,7 @@ The process for upgrading **Documents Seller** to latest version is the same wit
 2. Before updating the extension to latest verison, you should make a backup copy of your site so that in case something goes wrong (for any reasons), you can roll back to earlier status. We suggest you to install [Akeeba Backup](https://www.akeebabackup.com/products/akeeba-backup.html) extension and make a backup of your site before upgrading
 
 ### Use Joomla Update
-**Helpdesk Pro** allows you to use **Joomla Update** to update the extension whenever there is new version release directly from administrator area of your site. To use **Joomla Update**, please follow the instructions below:
+**Documents Seller** supports **Joomla Update**, so you can install new versions from the Joomla administrator. To set up updates, follow these steps.
 
 1. Go to [https://joomdonation.com/download-ids.html](https://joomdonation.com/download-ids.html) , get **Download ID** of your account.
 2. Go to **Documents Seller => Configuration**, enter the received **Download ID** into **Download ID** config option.
