@@ -5,20 +5,25 @@ taxonomy:
         - docs
 ---
 
-**Documents Seller** support the following custom field types:
-1. **Textbox**  
-2. **Textarea**
-3. **List**: This field type will generate a dropdown (single or multiple select). To make it become multiple select, please set **Multiple** property to **Yes**
-4. **Chekboxes**
-5. **Radio**
-6. **Date**: Display a calendar allows selecting a date
-7. **Heading**: Display **title of the field** as a header on order form.
-8. **Message**: Display a text message on order form. The message you want to display need to be entered into **Description** of the custom field.
-9. **Countries**: Display list of published countries in a single dropdown select
-10. **States**: Display list of states of a the selected country. When customers select a new country in the country dropdown, the list of states in this field will also be updated automatically
+Use **Field type** in the field editor to choose how customers enter information, select options, or read instructions at checkout.
 
->>>>> Right now, we only allow one country field and one state field on the form so that it can work together (when country is changed, the states list will be changed / update, too).
+| Field type | Use it for |
+| --- | --- |
+| **Text** | A single line of text, such as a domain name or purchase order number. |
+| **Textarea** | Longer answers, such as order notes or special instructions. |
+| **List** | A dropdown with one selection. Set **Multiple** to **Yes** to allow several selections. |
+| **Checkboxes** | A visible list of options that customers can select independently. |
+| **Radio** | A visible list of options with one selection. |
+| **Date** | A calendar picker, for example to ask for a preferred support start date. |
+| **Heading** | A section heading. Enter the heading in **Title**. |
+| **Message** | Instructions or other text within the form. Enter the message in **Description**. |
+| **Countries** | A dropdown populated from the Documents Seller country list. |
+| **State** | A dropdown of states or provinces for the selected country. |
+| **SQL** | A dropdown populated by a database query. Enter a `SELECT` query in **Default values** that returns a `value` column for the stored value and a `text` column for the displayed label. |
+| **Url** | A web address, such as the customer's website. |
+| **Email** | An additional email address, such as a billing contact. |
+| **Tel** | A telephone number, such as a support contact's number. |
 
+## Use the built-in Country and State fields together
 
-
->>>>> In case you don't have country field in the form but still have state field, the state field will get list of states from Default Country which you select in Configuration of Documents Seller
+The checkout form links the built-in **Country** and **State** fields. When a customer changes **Country**, the available **State** options update automatically. If **State** is shown without **Country**, it uses the country selected in **Default Country**. See [Checkout and Accounts](/getting-started/configuration/checkout-and-accounts).

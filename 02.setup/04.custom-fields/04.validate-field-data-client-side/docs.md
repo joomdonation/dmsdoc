@@ -6,17 +6,22 @@ taxonomy:
         - docs
 ---
 
-**Documents Seller** uses [jQuery Validation Engine](http://posabsolute.github.io/jQuery-Validation-Engine/) for client side validation. If you setup **Validation Rules** for a field, as soon as you enter data for that field, the engine will validate the data you entered with the configured rules and if it's not valid, an error message will be shown to let you know about the error and correct it.
+Documents Seller uses [jQuery Validation Engine](http://posabsolute.github.io/jQuery-Validation-Engine/) to check field values in the customer's browser. If an answer fails a configured rule, checkout displays a message so the customer can correct it.
 
-If you want to validate data of a custom field using this custom field, go to Documents Seller -> Custom Fields, click on a custom field to edit, enter the rules you want to use into **Validation Rules** setting of that custom field. For example:
+## Set up validation
 
-- **validate[required,custom[email]]** will make the field required and must be a valid email
-- **validate[required,custom[integer],min[10]]** will make the field required and the must be an integer smaller than 10
+1. In the Joomla administrator, go to **Documents Seller → Custom Fields** and edit the field.
+2. Set **Require** to **Yes** if the customer must answer. For a **Text** field, choose a preset under **Data type validation** if you need a specific format, such as **Integer Number**, **Number**, or **Email**.
+3. Review the generated **Validation rules**. Some presets start with example limits. For instance, **Min integer** generates `custom[integer],min[-5]` within the rule. Replace `-5` with the minimum you want.
+4. If you need a custom rule, enter it in **Validation rules** after choosing **Require** and **Data type validation**. The editor regenerates the rules when you open the field or change either setting, so check the rule before saving.
+5. Click **Save & Close**, then test checkout with a valid value, an invalid value, and a blank answer.
 
-See [http://posabsolute.github.io/jQuery-Validation-Engine/#validators](http://posabsolute.github.io/jQuery-Validation-Engine/#validators) for list of validators supported by this library and use the one meets your need
+| Validation rule | What it checks |
+| --- | --- |
+| `validate[required,custom[email]]` | The customer must enter a valid email address. |
+| `validate[required,custom[integer],min[10]]` | The customer must enter a whole number of 10 or more. |
+| `validate[custom[number],min[0]]` | The field is optional. If filled in, it must contain a number of zero or more. |
 
-To help you configure it easier, the system tries to populate **Validation Rules** automatically base on two settings in custom fields:
-- **Required**: If you select Yes, the system will insert **validate[required]** to **Validation Rules** automatically.
-- **Date type vailidation**: When you select an option, the system will insert the related rules into **Validation Rules** automatically. For example, when you select **Min integer**, the system will insert **validate[required,custom[integer],min[-5]]**, of curse, you will need to change -5 to the correct value you want.
+See the [jQuery Validation Engine validators](http://posabsolute.github.io/jQuery-Validation-Engine/#validators) for additional rules.
 
 ![Client Side Validation Settings](client_side_validation.png)
