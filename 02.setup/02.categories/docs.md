@@ -9,41 +9,37 @@ process:
     twig: true
 ---
 
-The next step would be setup **Categories**. **DMS** allows you to organize your documents cross infinite categories and subcategories (nested categories).
+Categories organize your digital downloads so customers can browse your catalog by product type or topic. For example, you can create a top-level **Templates** category with **Business Templates** and **Design Templates** as subcategories. In Documents Seller, each downloadable product is a document, and you can assign the same document to more than one category.
 
-Access to **Documents Seller** -> **Categories** to access to categories management page and setup categories you want.
+## Create a category
 
-![Categories](categories.png)
+1. In the Joomla administrator, go to **Documents Seller → Categories** and click **New**.
+2. Enter a **Name**. Leave **Parent** set to **Select category** to create a top-level category, or choose an existing published category to create a subcategory.
+3. Review the settings below and click **Save & Close**. Create and publish parent categories before adding their subcategories.
 
-## Add new category
-Press **New** button in the toolbar to create new category. A form will be displayed to allow you to enter information of the category:
+![Category editor](add-new-category.png)
 
-![Add New Category](add-new-category.png)
+| Setting | How to use it |
+| --- | --- |
+| **Alias** | Leave this blank to generate a URL-friendly alias from the category name. |
+| **Category Layout** | Choose how the category page displays its documents. **Default** shows a list, **Columns** arranges documents in columns, **Table** puts documents in table rows, and **Grid** displays them as cards. Menu items can choose their own layout. |
+| **Category Thumbnail** | Select an image for the category. If **Resize Category Image** is enabled, Documents Seller generates a thumbnail when you save. |
+| **Description** | Add a short introduction that tells customers what they can find in this category. It appears on the category page. |
+| **Published** | Set to **Yes** so the category can appear in storefront category lists. |
+| **Access** | Choose the Joomla viewing access level required to see this category in storefront category lists. Use **Public** to let guests see it. Documents have their own **Access** setting. |
+| **Meta Keywords** and **Meta Description** | Optionally set metadata for the category page. |
 
-<table class="table table-stripped table-bordered table-considered">
-<thead>
-<tr><th width="15%">Property</th><th>Description</th></tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Name</strong></td>
-<td>Name of the category</td>
-</tr>
-<tr>
-<td><strong>Parent</strong></td>
-<td>Select parent of this category. Set it to <strong>Select Category</strong> and it will become top level category.</td>
-</tr>
-<tr>
-<td><strong>Category Layout</strong></td>
-<td>Choose the layout you want to use to display documents from this category. As of right now, there are 3 supported layouts: **Default**, **Columns** and **Table**.</td>
-</tr>    
-<tr>
-<td><strong>Managers</strong></td>
-<td>If you want to give some users permission to manage tickets submitted to this category, enter username of the manager(s) into this parameter. If a category has multiple managers, simply enter their username into this field (comma separatd, for example admin,tuanpn).</td>
-</tr>
-<tr>
-<td><strong>Description</strong></td>
-<td>Description of the category. It will be displayed on **Categories List** menu otpion.</td>
-</tr>
-</tbody>
-</table>
+## Add documents and link to categories
+
+When you create or edit a [document](/setup/documents), select one or more published categories in the **Category** field. To also show documents from published subcategories on a parent category's page, enable **Show Documents From Children Categories** under **Documents Seller → Configuration → General**. See [Storefront Display and URLs](/getting-started/configuration/storefront-display-and-urls) for related display settings.
+
+- Use a [Categories List](/frontend-menu-options/categories-list) menu item to let customers browse top-level categories or the immediate subcategories of a selected parent. Set its **Category Layout** to **Use Category Setup** to use each category's layout when customers click through. Choosing a layout in the menu item applies that layout to the category pages reached from it.
+- To link straight to a category's documents, create a menu item of type **Category Default Layout**, **Category Column Layout**, **Category Table Layout**, or **Category Grid Layout**, and select the category in the menu item. The menu item type determines the layout for that page. See [Frontend Menu Options](/frontend-menu-options) for setup details.
+
+## Manage categories
+
+On **Documents Seller → Categories**, click a category name to edit it, or use the parent filter to find a category's immediate subcategories. Select categories to publish or unpublish them from the toolbar.
+
+![Categories list with top-level categories and subcategories](categories.png)
+
+Deleting a category removes its document assignments. Before deleting it, reassign any documents that depend on it and choose a new **Parent** for any subcategories you want to keep in the catalog.
