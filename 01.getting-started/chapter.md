@@ -21,4 +21,4 @@ Documents Seller adds a digital downloads store to your Joomla site. You can sel
 - [Installation](/getting-started/installation) covers the Joomla requirements, the extension package, and how to install and update it.
 - [Configuration](/getting-started/configuration) explains the settings for checkout, accounts, file delivery, taxes, invoices, and storefront display.
 
-Once your first purchase works, use [Setup](/setup) to expand the catalog and customize checkout, [Frontend Menu Options](/frontend-menu-options) to plan store navigation, and [Orders Management](/orders-management) to handle orders after launch.
+Once your first purchase works, use [Setup](/setup) to expand the catalog and customize checkout. Use [Storefront Menus and Modules](/frontend-menu-options) to plan how customers find products and retrieve purchases. After launch, use [Orders Management](/orders-management) to handle customer orders and [Dashboard and Sales Charts](/orders-management/dashboard-and-sales-charts) to monitor sales.

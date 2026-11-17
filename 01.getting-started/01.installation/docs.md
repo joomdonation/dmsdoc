@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-Documents Seller 7.4.1 requires Joomla 4.4 or later and PHP 7.4 or later. Your Joomla version may require a newer version of PHP.
+Documents Seller requires Joomla 4.4.0 or later and PHP 7.4 or later. Your Joomla version may require a newer version of PHP.
 
 ## Installation
 
@@ -25,6 +25,8 @@ Back up your Joomla site files and database before updating. Install the new ver
 2. In the Joomla administrator, go to **Documents Seller → Configuration → General**. Paste the ID into **Download ID** and save.
 3. Go to **System → Manage → Plugins** and make sure **Installer - Documents Seller** is enabled.
 4. When an update is available, go to **System → Update → Extensions**, select the Documents Seller update, and click **Update**.
+
+If you sell software through your store, see [Software Update Download IDs](/setup/software-update-download-ids) for the IDs you issue to your own customers.
 
 ### Update Manually
 Download the latest package from [My Downloads](https://joomdonation.com/my-downloads.html) and upload it using the [installation steps](#installation).

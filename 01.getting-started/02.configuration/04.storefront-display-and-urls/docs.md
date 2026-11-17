@@ -23,7 +23,7 @@ On **General**, set **CSS Framework** to match your Joomla site template. The av
 - **Show Document Detail In Popup** opens details links in a modal in supported layouts. **Show Download In Column** displays the per-document download allowance in supported tables, such as the category table and Orders History.
 - On **General**, set **Show Documents From Children Categories** to **Yes** to include documents from subcategories in the parent category's document list.
 
-See [Frontend Menu Options](/frontend-menu-options) for the available layouts.
+See [Storefront Menus and Modules](/frontend-menu-options) for the available menu layouts and [Storefront Modules](/frontend-menu-options/modules) for lists you can add to template positions.
 
 ## Sef Settings
 

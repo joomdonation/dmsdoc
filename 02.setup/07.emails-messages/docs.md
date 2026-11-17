@@ -47,7 +47,7 @@ To resend a customer email, select the order in **Documents Seller → Orders** 
 | **Thank You Message (Offline Payment)** | On the completion page after the customer submits an offline order. | Order tags below |
 | **Download Complete Message** | On the completion page after the visitor submits the download form for an order containing only free documents. | Order tags below |
 | **Payment Cancel Message** | On the cancellation page when the payment gateway returns the customer there. | Static text |
-| **Download IDs Manage Message** | Above the Download IDs list on the frontend **Manage Download IDs** page. | Static text |
+| **Download IDs Manage Message** | Above the Download IDs list on the frontend [Manage Download IDs page](/setup/software-update-download-ids#let-customers-manage-their-download-ids). | Static text |
 
 On checkout and download forms, write tags in uppercase. `[ITEM_NAME]` is the linked document title, `[DOCUMENT_TITLE]` is the plain title, and `[AMOUNT]` is the listed price. `[AMOUNT_INCLUDING_TAX]` adds the configured tax rate to the listed price. Use generic wording in the download form message if visitors can check out with multiple free documents in the cart.
 

@@ -37,6 +37,8 @@ Use **Tabs Data** to organize additional information on the detail page, such as
 
 ![Tabs Data in the document editor](tabs-data.png)
 
+To let customers browse by tag, publish the [tags module](/frontend-menu-options/modules#tags-modules-for-documents-seller). In **Documents Seller → Tags**, you can see how often each tag has been used to open search results. To retire a tag, remove it from the documents that use it and delete it from the Tags list.
+
 ## Limit downloads after purchase
 
 Under **Restriction and Meta data**, choose a **Prevent Download Type**.
@@ -64,6 +66,8 @@ Under **Members Discount Setting**, use **Discount Type** to choose a percentage
 ## Offer a separate software update package
 
 If you distribute software updates through Download IDs, place the update file in an `updates` subfolder under **Documents Path**. The **Update Package** field appears when that folder exists. Choose the package there and keep **Choose File** set to the standard customer download. If no update package is selected, Download ID requests serve the standard file.
+
+See [Software Update Download IDs](/setup/software-update-download-ids) to add the customer menu item and connect your updater.
 
 ## Manage documents
 

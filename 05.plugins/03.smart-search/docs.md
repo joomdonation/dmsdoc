@@ -6,6 +6,8 @@ taxonomy:
 
 Use **Smart Search - Documents Seller** to include your downloadable products in Joomla Smart Search. It indexes the document title, short description, full description, and metadata. Search results link to the document detail page. If customers should be able to find a product by terms used inside the downloadable file, add those terms to the document's title or description in Documents Seller.
 
+For a search form dedicated to the catalog, use the [DMS search module](/frontend-menu-options/modules#dms-search).
+
 ## Enable the plugin and index documents
 
 1. In the Joomla administrator, go to **System → Manage → Plugins**, enable **Smart Search - Documents Seller**, and save.
