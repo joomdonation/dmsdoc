@@ -35,11 +35,11 @@ Save your changes. Under **Documents Seller → Messages**, keep a subject and t
 ## 4. Enable a payment method and link to the catalog
 
 1. In **Documents Seller → Payment Plugins**, open **os_offline**, set **Published** to **Yes** and **Access** to **Public**, then save. Unpublish any other payment methods you have yet to configure. See [Offline Payment](/setup/payment-plugins/offline-payment).
-2. In Joomla, go to **Menus**, select a site menu, and click **New**. Enter `Shop` in **Title** and choose **Documents Seller → Category Default Layout** as the **Menu Item Type**. Set **Select Category** to **Guides**, set **Access** to **Public**, and save the menu item as published. See [Create a menu item](/frontend-menu-options#create-a-menu-item).
+2. In Joomla, go to **Menus**, select a menu that appears on your site, and click **New**. Enter `Shop` in **Title** and choose **Documents Seller → Category Default Layout** as the **Menu Item Type**. Set **Select Category** to **Guides**, set **Access** to **Public**, and save the menu item as published. See [Create a menu item](/frontend-menu-options#create-a-menu-item).
 
 ## 5. Place an order and download the file
 
-1. Open the **Shop** page in a private browser window. Open **Sample Guide** and proceed to checkout. Check that the price, currency, and total are correct. Complete the form with your test email address and submit the order using **Offline Payment**.
+1. Open the **Shop** page in a private browser window. Open **Sample Guide** and click **Order It**. Check that the price, currency, and total are correct. Complete the form with your test email address and submit the order using **Offline Payment**.
 2. In the Joomla administrator, go to **Documents Seller → Orders** and find your test order. Confirm that **Order Status** is **Pending**. Open the order, set **Order Status** to **Paid**, and save. See [Approve an order](/orders-management#publish-approve-order).
 3. Open the approval email in the test inbox. Follow its download link in the private window and verify that it delivers the PDF you uploaded. If the email is missing, check the order status, the **Order Approved Email Subject**, and whether Joomla can send mail. If the email arrives without a link, check **Send Download Link Via Email** and `[ORDER_DETAIL]` in the approval email body. See [Files, Downloads, and Emails](/getting-started/configuration/files-downloads-and-emails).
 
