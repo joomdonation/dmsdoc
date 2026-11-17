@@ -14,4 +14,6 @@ In the Joomla administrator, go to **Documents Seller → Configuration**. Docum
 | [Taxes and Invoices](/getting-started/configuration/taxes-and-invoices) | **General**, **Invoice Settings**, **EU Tax Rules** | Flat-rate tax or EU VAT, PDF invoices, and invoice numbering |
 | [Storefront Display and URLs](/getting-started/configuration/storefront-display-and-urls) | **General**, **Themes**, **Sef Settings**, **Custom CSS** | Template compatibility, thumbnails, category and document listings, URL settings, and styling |
 
-To receive extension updates through Joomla, enter your **Download ID** on the **General** tab. See [Installation](/getting-started/installation) for the Joomla Update setup steps.
+For a walkthrough of the settings you need to test a first purchase, follow [Quick Start](/getting-started/quick-start).
+
+To receive extension updates through Joomla, enter your **Download ID** on the **General** tab. See [Installation](/getting-started/installation#use-joomla-update) for the Joomla Update setup steps.
