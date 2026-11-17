@@ -7,6 +7,13 @@ taxonomy:
 visible: true
 ---
 
-If you use Eway payment plugin, you just need to get Customer ID from your Eway account, enter it into os_eway payment plugin parametter and start using this payment plugin.
+The Eway plugin uses the Eway Direct integration. Go to **Documents Seller → Payment Plugins** and open **os_eway**.
 
-![Eway Payment Plugin](os-eway.png)
+| Setting | How to configure it |
+| --- | --- |
+| **Environment** | Select **Sandbox** for test payments or **Live** to accept real payments. |
+| **Customer ID** | Enter your Eway Customer ID for the selected environment. Replace the prefilled value with your own Customer ID before going live. |
+
+![Eway payment plugin settings](os-eway.png)
+
+See [shared settings](/setup/payment-plugins#set-an-icon-or-a-processing-fee) for the icon and processing fee fields. Save and publish the plugin when it is ready for checkout.

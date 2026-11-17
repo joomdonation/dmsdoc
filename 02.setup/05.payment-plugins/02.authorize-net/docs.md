@@ -7,14 +7,16 @@ taxonomy:
 visible: true
 ---
 
-On Payment Plugins management screen, click on **os_authnet** payment plugin to edit it. The following parameters need to be configured:
-1. **Authorize.net Mode**: Set to **Test Mode** if you are testing the system and set it to **Live Mode** when you go live.
-2. **API Login**
-3. **Transaction Key**
+The Authorize.Net AIM plugin accepts card details on the Documents Seller checkout form. Go to **Documents Seller → Payment Plugins** and open **os_authnet**.
 
-![Authorize.net](os-authnet.png)
+| Setting | How to configure it |
+| --- | --- |
+| **Environment** | Select **Sandbox** for test payments or **Live** to accept real payments. |
+| **API Login** | Enter the API Login ID for your Authorize.Net account in the selected environment. |
+| **Transaction Key** | Enter the transaction key that belongs to that API Login ID. |
 
-Sometime, your Authorize.net might not work well in Test Mode. But it does works in Live Mode. In that case, if you want to test it in test mode, you can use the following Authorize.net account for testing purpose:
+![Authorize.Net AIM plugin settings](os-authnet.png)
 
-1. **API Login**: 2Sht9m67PD
-2. **Transaction Key**: 35J2rq5d6LtJ2Yg6
+Use credentials from your own sandbox account when testing. When you switch to **Live**, enter your live account's **API Login** and **Transaction Key**.
+
+The same credentials allow you to issue refunds from **Documents Seller → Orders**. See [shared settings](/setup/payment-plugins#set-an-icon-or-a-processing-fee) for the icon and processing fee fields.

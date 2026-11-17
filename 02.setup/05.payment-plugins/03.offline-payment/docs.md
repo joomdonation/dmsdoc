@@ -7,16 +7,23 @@ taxonomy:
 visible: true
 ---
 
-**Offline payment** plugin is a special payment plugin comes with the extension. It allows customers to make payment for the order later (not at the time they purchase your documents) by bank transfer, by cash...
+Use the **Offline Payment** plugin to accept payments outside checkout, such as bank transfers or cash. Documents Seller records the order as **Pending**. You mark it as **Paid** after you receive the payment, which gives the customer access to the purchased downloads.
 
-When customers choose offline payment for the order, the system will mark the order status as **Pending**. It will also display a message which guide users how to make payment.... This guide will also be sent to them via email
+## Set up offline payments
 
-After receiving payment from customer for the order, admin will login to backend of the site, click on the order record, change the status from **Pending** to **Paid**. At that time, the user will receive a confirmation email from the system contains the purchase document. If he has user account, he can login, access to Orders History page to download the purchased documents from there.
+1. Go to **Documents Seller → Payment Plugins** and open **os_offline**.
+2. Set **Title** to the payment method you accept, such as **Bank Transfer**, then save. The plugin also supports the [shared icon and processing fee settings](/setup/payment-plugins#set-an-icon-or-a-processing-fee).
+3. Go to **Documents Seller → Messages** and update the templates below. Include the details customers need to pay, such as your bank details and the reference to include with the transfer.
+4. Return to **Payment Plugins**, set **Published** to **Yes** for **os_offline**, and save.
 
-If you use **Offline Payment** on your site, please go to **Documents Seller** => **Messages**, find and change the following messages to meet your need (mostly guide users how to send payment to you)
+| Message fields | When Documents Seller uses them |
+| --- | --- |
+| **Thank You Message (Offline Payment)** | On the order completion page after the customer submits an offline order. |
+| **Offline payment Email Subject** and **Offline payment Email Body** | In the email sent to the customer after they submit the order. Include the payment instructions here so they can refer to them later. |
+| **Order Approved Email Subject** and **Order Approved Email Body** | In the email sent to the customer after you approve the order. |
 
-- Offline payment Email Subject
-- Offline payment Email Body
-- Order activated Email Subject
-- Order Activated Email Body
-- Thank You Message (Offline Payment)
+## Approve an order after receiving payment
+
+1. Go to **Documents Seller → Orders** and open the pending order.
+2. Change **Order Status** from **Pending** to **Paid**, then save the order. You can also [publish the order from the Orders list](/orders-management).
+3. Documents Seller sends the order approval email. If **Send Documents Via Email** is enabled, it attaches the purchased files. Customers with an account can also download them through a published [Orders History](/frontend-menu-options/orders-history) menu item.
