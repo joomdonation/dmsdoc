@@ -10,16 +10,16 @@ Use one of the following plugins, depending on where you store customer informat
 
 | Plugin | Source data |
 | --- | --- |
-| **Documents Seller - Joomla User Custom Fields** | Published Joomla user custom fields. The mapping selector also offers the account's `username`, `name` (full name), and `email`. |
+| **Documents Seller - Joomla Users** | The account's `username`, `name` (full name), and `email`, plus published Joomla user custom fields. |
 | **Documents Seller - Community Builder** | Fields stored in the customer's Community Builder profile. Community Builder must be installed and enabled. |
 
 Both plugins use the **Fields mapping** setting in the Documents Seller custom field editor. The mapping connects a checkout field to the corresponding source field; the field names do not have to match.
 
 ## Use Joomla user data
 
-1. In the Joomla administrator, go to **Users → Fields** and create or check the user custom fields you want to use. Ensure they are published.
-2. Open a test user under **Users → Manage**, enter values in those custom fields, and save the account.
-3. Go to **System → Manage → Plugins**, open **Documents Seller - Joomla User Custom Fields**, set **Status** to **Enabled**, and save.
+1. If you want to populate checkout fields from Joomla user custom fields, go to **Users → Fields** in the Joomla administrator and create or check those fields. Ensure they are published. Skip this step if you only need the account's `username`, `name`, or `email`.
+2. Open a test user under **Users → Manage**, check the account details, enter values in any custom fields you want to use, and save the account.
+3. Go to **System → Manage → Plugins**, open **Documents Seller - Joomla Users**, set **Status** to **Enabled**, and save.
 4. [Map the checkout fields](#map-the-checkout-fields) to the corresponding Joomla fields.
 
 Joomla user custom fields appear by their titles in the mapping selector. Use fields belonging to Joomla users; custom fields created for articles or other content are not offered.
@@ -74,7 +74,7 @@ When a profile integration returns mapped data, Documents Seller uses that data 
 
 ## Troubleshooting
 
-- **Fields mapping is missing:** check that the intended integration plugin is enabled, then reopen the checkout field. For Joomla, check that the Fields component is enabled and your user custom fields are published. For Community Builder, check that the component is enabled and has eligible profile fields.
+- **Fields mapping is missing:** check that the intended integration plugin is enabled, then reopen the checkout field. For Community Builder, check that the component is enabled and has eligible profile fields. The Joomla Users plugin offers `username`, `name`, and `email` even when no Joomla user custom fields exist.
 - **The expected source field is missing:** check that it belongs to Joomla users or the Community Builder profile, rather than another type of content. Also check whether another enabled profile plugin is supplying the mapping options.
 - **A mapped value is blank or unexpected:** check the signed-in customer's saved profile, the selected mapping, and the checkout field's available choices. Retest in a fresh browser session.
 - **The checkout field itself is missing:** check its publication status, access level, and document assignment. See [Custom Fields](/setup/custom-fields).
