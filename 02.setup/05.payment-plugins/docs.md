@@ -45,7 +45,37 @@ New plugins start unpublished. Open the plugin by clicking its **Name**, configu
 
 When the cart is disabled, a document's **Payment Methods** setting can further limit the checkout options. See [Set product-specific checkout options](/setup/documents#set-product-specific-checkout-options).
 
-### Set an icon or a processing fee
+## Duplicate a payment plugin
+
+Duplicate a plugin when you need more than one payment method using the same gateway, each with its own settings. For example, you can offer two bank transfer options with different payment instructions, or use different gateway accounts for different documents.
+
+### Duplicate from the payment plugins list
+
+1. Go to **Documents Seller → Payment Plugins**.
+2. Select the checkbox next to the plugin you want to copy. You can select several plugins to create one copy of each.
+3. Click **Duplicate** in the toolbar.
+4. The page returns to the payment plugins list. Open the new copy to configure it.
+
+### Duplicate from the plugin details page
+
+1. Open the payment plugin you want to copy.
+2. If you have changed any settings that you want included in the copy, click **Save** first, then reopen the plugin. Duplication uses the saved settings; it does not save changes entered on the form.
+3. Click **Duplicate** in the toolbar. The page returns to the payment plugins list.
+4. Open the new copy to configure it.
+
+### Configure the copy
+
+The copy inherits the source plugin's settings, including its credentials, access level, icon, and processing fees. Documents Seller assigns it a unique **Name**, such as `os_paypal_1`, appends a number to its **Title**, and sets **Published** to **No**.
+
+1. Change **Title** to a clear label customers can recognize at checkout.
+2. Review the copied settings. Replace the gateway credentials or payment instructions if the new method should use a different account.
+3. Set **Published** to **Yes** and click **Save** when the method is ready.
+
+When the cart is disabled, you can assign the appropriate copy through each document's **Payment Methods** setting. See [Set product-specific checkout options](/setup/documents#set-product-specific-checkout-options).
+
+Copies use the original plugin's files, so you do not need to copy or edit any code. To remove a copy, select it in **Payment Plugins** and click **Uninstall**. This removes only that copy. The original plugin cannot be uninstalled while copies still exist; remove its copies first.
+
+## Set an icon or a processing fee
 
 The bundled plugins share these settings.
 
@@ -57,15 +87,15 @@ The bundled plugins share these settings.
 
 If both fee fields are set, Documents Seller adds the fixed and percentage portions together. Fees apply to orders with a positive amount due.
 
-### Publish or unpublish payment methods
+## Publish or unpublish payment methods
 
 Use the status icon in the **Published** column, or select one or more plugins and click **Publish** or **Unpublish** in the toolbar. Unpublish unused methods to hide them from checkout.
 
-### Change the default payment method
+## Change the default payment method
 
 Checkout preselects the first payment method available to the customer. Sort the **Payment Plugins** list by **Ordering** in ascending order and drag the preferred plugin above the other methods.
 
-### Translate a payment method title
+## Translate a payment method title
 
 1. Edit the plugin and enter a language key such as `DMS_PAYMENT_BANK_TRANSFER` in **Title**. Save the plugin.
 2. Go to **Documents Seller → Translation** and select **Frontend language** and `en-GB`. Click **New Item**, enter the key and its English label, then save.
