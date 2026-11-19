@@ -9,6 +9,7 @@ Choose a screen based on what you want to check in the Joomla administrator.
 
 | Screen | Use it to |
 | --- | --- |
+| [Revenue Chart](/orders-management/revenue-chart) | Analyze revenue or order counts over a selected month range, compare with the previous year, and compare selected documents on separate lines. |
 | **Documents Seller → Dashboard** | Check store totals, recent orders, and quick sales trends. |
 | **Documents Seller → Sales Chart** | Track daily or monthly sales for the whole store or for orders containing a selected document. |
 | [Sales Report](/orders-management#sales-report) | Compare products by item sales, income, and new customers over a selected period. |

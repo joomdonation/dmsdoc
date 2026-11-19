@@ -8,7 +8,7 @@ taxonomy:
 
 In the Joomla administrator, go to **Documents Seller → Orders** to find customer orders, record payments received outside checkout, and manage access to purchased documents. Open an order to edit it or issue a refund. Use the list toolbar to email customers or export order data.
 
-Use the [Sales Report](#sales-report) to compare products in a selected period. See [Dashboard and Sales Charts](/orders-management/dashboard-and-sales-charts) for sales trends and store totals, or [Scheduled Maintenance](/plugins/scheduled-maintenance) to clean up abandoned online payment orders.
+Use the [Revenue Chart](/orders-management/revenue-chart) to review revenue or order trends over a selected month range, compare with the previous year, and compare selected documents. Use the [Sales Report](#sales-report) for product sales and income based on order items. See [Dashboard and Sales Charts](/orders-management/dashboard-and-sales-charts) for quick sales trends and store totals, or [Scheduled Maintenance](/plugins/scheduled-maintenance) to clean up abandoned online payment orders.
 
 ![DMS-Manage-Orders](DMS-Manage-Orders.png "DMS-Manage-Orders")
 
