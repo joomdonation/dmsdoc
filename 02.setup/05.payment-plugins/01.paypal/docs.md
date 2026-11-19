@@ -25,13 +25,34 @@ If the cart is disabled, a document's **PayPal Account** setting can override th
 
 ## Enable refunds from Orders
 
-On the **Advanced** tab, enter the corresponding API credentials if you want to issue refunds from **Documents Seller → Orders**. These fields are optional for accepting payments.
+The plugin uses the PayPal REST API to process refunds. On the **Advanced** tab, enter both credentials for the selected **Environment** if you want to issue refunds from **Documents Seller → Orders**. These fields are optional for accepting payments.
 
 | Environment | Fields |
 | --- | --- |
-| **Live** | **API User**, **API Password**, and **API Signature** |
-| **Sandbox** | **Sandbox API User**, **Sandbox API Password**, and **Sandbox API Signature** |
+| **Live** | **Client ID** and **Client Secret** |
+| **Sandbox** | **Sandbox Client ID** and **Sandbox Client Secret** |
 
-Use the credentials for your PayPal business account in the selected environment. The tab provides **Get PayPal API** or **Get Sandbox PayPal API** according to the selected environment.
+Only the fields for the selected environment are displayed. Use credentials belonging to the PayPal business account that received the payment. This also applies if a document's **PayPal Account** setting overrides the plugin's receiving account.
+
+If you previously configured **API User**, **API Password**, and **API Signature**, replace them with the REST API credentials below to continue issuing refunds from Orders.
 
 ![DMS-os_paypal_advanced](DMS-os_paypal_advanced.png "DMS-os_paypal_advanced")
+
+### Get your Client ID and Client Secret
+
+1. Open the [PayPal Developer Dashboard](https://developer.paypal.com/dashboard/) and sign in with your PayPal business account.
+2. Go to **Apps & Credentials** and select **Live** for real payments or **Sandbox** for testing.
+3. Open an existing REST API app, or click **Create App** and follow the prompts to create one. For sandbox testing, use an app associated with the sandbox business account that receives your test payments.
+4. Copy the app's **Client ID** and reveal and copy its **Client Secret**.
+5. Return to **Documents Seller → Payment Plugins → os_paypal**. Set **Environment** to the same environment selected in PayPal, open the **Advanced** tab, and paste the credentials into the matching fields shown in the table above.
+6. Click **Save**.
+
+See PayPal's [Get your client ID and client secret](https://developer.paypal.com/api/get-started/#1-get-your-client-id-and-client-secret) guide for more information. Keep the **Client Secret** private.
+
+Sandbox and live credentials are different. When switching to **Live**, enter your live credentials before issuing refunds for real payments.
+
+### Issue a refund
+
+Open a paid PayPal order under **Documents Seller → Orders**, click **Refund**, and confirm. The plugin requests a full refund of the original PayPal transaction. See [Refund an order](/orders-management#refund-an-order) for the permissions, order requirements, and what happens after a refund.
+
+If PayPal rejects the request, check that both credentials are correct, match the selected environment, and belong to the account that received the payment. Check the transaction in PayPal before retrying a refund.
