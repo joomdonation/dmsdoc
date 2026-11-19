@@ -28,5 +28,6 @@ In the Joomla administrator, go to **Documents Seller → Custom Fields**.
 
 - [Supported Field Types](/setup/custom-fields/field-types) describes the inputs and display options available.
 - [Add New Custom Field](/setup/custom-fields/add-new-custom-field) explains how to create a field and control where it appears.
+- [Automatic Checkout Field Population](/setup/custom-fields/automatic-checkout-field-population) shows how to prefill checkout fields from Joomla user data or Community Builder profiles.
 - [Custom Fee Fields](/setup/custom-fields/custom-fee-fields) shows how to set option prices and calculate charges with formulas.
 - [Validate Field Data](/setup/custom-fields/validate-field-data-client-side) explains how to check input formats and limits in the browser.

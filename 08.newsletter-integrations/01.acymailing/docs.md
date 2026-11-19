@@ -1,7 +1,10 @@
 ---
-title: 'Documents Seller - AcyMailing'
+title: AcyMailing
 taxonomy:
     category: docs
+routes:
+    aliases:
+        - /plugins/acymailing
 ---
 
 Use **Documents Seller - AcyMailing** to subscribe customers to mailing lists when Documents Seller confirms an order. You can use one list for all customers and add product-specific lists for follow-up messages, such as updates about a template they purchased.

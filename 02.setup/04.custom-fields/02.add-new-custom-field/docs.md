@@ -32,7 +32,7 @@ When the order contains one document, checkout shows fields assigned to that doc
 | **Default values** | Enter a starting value or the exact text of an option to preselect. For **Checkboxes** or a **List** with **Multiple** enabled, enter one default option per line. |
 | **Fee field**, **Fee Values**, and **Fee formula** | Use these settings to [add a charge based on the customer's answer](/setup/custom-fields/custom-fee-fields). |
 
-If **Fields mapping** is available, select the corresponding profile field to prefill this checkout field for signed-in customers using the configured integration.
+Use **Fields mapping** to prefill this checkout field for signed-in customers from Joomla user data or a Community Builder profile. Enable the appropriate integration plugin to make the selector available. See [Automatic Checkout Field Population](/setup/custom-fields/automatic-checkout-field-population) for setup and testing instructions.
 
 ## Adjust the display
 

@@ -15,6 +15,7 @@ Use these guides to build your catalog, choose how customers pay, and customize 
 ## Configure checkout and delivery
 
 - [Custom Fields](/setup/custom-fields) shows how to collect customer information or add fees based on checkout selections.
+- [Automatic Checkout Field Population](/setup/custom-fields/automatic-checkout-field-population) shows how to reuse signed-in customers' Joomla or Community Builder profile details at checkout.
 - [Payment Plugins](/setup/payment-plugins) explains how to select, configure, and publish payment methods.
 - [Coupons](/setup/coupons) covers discount codes and when the coupon field appears at checkout.
 - [Emails & Messages](/setup/emails-messages) explains when each template is used and how to include order details, payment instructions, or download links.
