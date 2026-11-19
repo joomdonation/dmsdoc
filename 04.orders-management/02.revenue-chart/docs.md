@@ -11,7 +11,7 @@ Use **Documents Seller → Revenue Chart** in the Joomla administrator to review
 
 1. Open **Documents Seller → Revenue Chart**.
 2. Choose a **Period**, or select **Custom** and enter the first and last months in **From** and **To**.
-3. Choose an **Interval** to group the results by week, month, quarter, or year.
+3. Choose an **Interval** to group the results by day, week, month, quarter, or year. Selecting **This Month** automatically sets the interval to **Day**.
 4. Leave **Documents** empty to include all documents, or select one or more documents. If the **Category** filter is shown, you can also limit the orders by category.
 5. Select **Revenue** and **Total** to see separate lines for paid and refunded orders. Switch to **Orders** to compare order counts instead of amounts.
 
@@ -22,15 +22,18 @@ The chart updates automatically when you change a filter. Hover over a point to 
 | Control | How it works |
 | --- | --- |
 | **Last 12 months** | Shows the same month last year through the current month, including both endpoint months. For example, in November 2026, the range is November 2025 to November 2026. |
+| **This Month** | Shows the current calendar month and automatically selects the **Day** interval to display daily results. |
 | **This Year** | Shows January through December of the current year. |
 | **Last Year** | Shows January through December of the previous year. |
 | **Last 3 years** | Shows 36 months ending with the current month. |
 | **Custom** | Lets you choose the first and last months. Both months are included, with a maximum range of 120 months. |
-| **Interval** | Groups results by **Week**, **Month**, **Quarter**, or **Year**. **Week** is available for ranges of up to three months; longer ranges switch a weekly interval to **Month**. Weeks start on Monday, and quarters follow the calendar year. |
+| **Interval** | Groups results by **Day**, **Week**, **Month**, **Quarter**, or **Year**. **Day** is available for ranges of up to two months, and **Week** for ranges of up to three months. If you extend the range beyond the selected interval's limit, the interval switches to **Month**. Weeks start on Monday, and quarters follow the calendar year. |
 | Previous and next arrows | Move backward or forward by the length of the selected range. For example, a three-month range moves by three months. You can also focus the chart and use the left and right arrow keys. |
 | **Today** | Returns to the **Last 12 months** range. |
 
 The range uses whole months. If you select a quarter or year interval for a range that covers only part of that quarter or year, the point includes only orders within your selected months. The current month contains orders recorded so far; keep this in mind when comparing it with a completed month.
+
+For a daily view of recent sales, choose **This Month**. You can also use **Custom** to select another month or two consecutive months, then choose **Day**. Daily results use the Joomla site's time zone. Days with no matching orders show zero, including future days in the current month.
 
 ## Filter by document or category
 
