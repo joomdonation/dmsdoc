@@ -1,6 +1,6 @@
 ---
 title: PayPal
-media_order: 'os-paypal.png,os-paypal-advanced-settings.png'
+media_order: 'DMS-os_paypal_basic.png,DMS-os_paypal_advanced.png'
 taxonomy:
     category:
         - docs
@@ -17,7 +17,7 @@ The PayPal Payments Standard plugin sends customers to PayPal to pay for their o
 | **Paypal Email** | Enter the PayPal account email address or ID that should receive the payment. Use your sandbox business account in **Sandbox**. |
 | **Locale** | Sets the language and regional format requested for PayPal checkout, such as `en_US`. If the field is blank, the plugin uses the active Joomla language on multilingual sites and `en_US` on other sites. |
 
-![PayPal payment plugin basic settings](os-paypal.png)
+![DMS-os_paypal_basic](DMS-os_paypal_basic.png "DMS-os_paypal_basic")
 
 See [shared settings](/setup/payment-plugins#set-an-icon-or-a-processing-fee) for the icon and processing fee fields. Leave **Use Custom Certs** and **Enable Log** set to **No** unless support asks you to change them.
 
@@ -34,4 +34,4 @@ On the **Advanced** tab, enter the corresponding API credentials if you want to 
 
 Use the credentials for your PayPal business account in the selected environment. The tab provides **Get PayPal API** or **Get Sandbox PayPal API** according to the selected environment.
 
-![PayPal payment plugin advanced settings](os-paypal-advanced-settings.png)
+![DMS-os_paypal_advanced](DMS-os_paypal_advanced.png "DMS-os_paypal_advanced")

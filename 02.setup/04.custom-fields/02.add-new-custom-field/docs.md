@@ -3,6 +3,7 @@ title: 'Add New Custom Field'
 taxonomy:
     category:
         - docs
+media_order: DMS-Add-Field.png
 ---
 
 In the Joomla administrator, go to **Documents Seller → Custom Fields** and click **New**.
@@ -14,7 +15,7 @@ In the Joomla administrator, go to **Documents Seller → Custom Fields** and cl
 5. Set **Document** if the field applies to specific products. Configure any options, default values, or fees, then click **Save & Close**.
 6. Open checkout as a customer who should see the field. Place a test order and open it under **Documents Seller → Orders** to check the saved answer.
 
-![Add New Custom Field](add-new-field.png)
+![DMS-Add-Field](DMS-Add-Field.png "DMS-Add-Field")
 
 ## Choose which documents use the field
 

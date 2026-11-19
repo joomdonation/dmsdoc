@@ -1,6 +1,6 @@
 ---
 title: Eway
-media_order: os-eway.png
+media_order: DMS-os-eway.png
 taxonomy:
     category:
         - docs
@@ -14,6 +14,6 @@ The Eway plugin uses the Eway Direct integration. Go to **Documents Seller → P
 | **Environment** | Select **Sandbox** for test payments or **Live** to accept real payments. |
 | **Customer ID** | Enter your Eway Customer ID for the selected environment. Replace the prefilled value with your own Customer ID before going live. |
 
-![Eway payment plugin settings](os-eway.png)
+![DMS-os-eway](DMS-os-eway.png "DMS-os-eway")
 
 See [shared settings](/setup/payment-plugins#set-an-icon-or-a-processing-fee) for the icon and processing fee fields. Save and publish the plugin when it is ready for checkout.

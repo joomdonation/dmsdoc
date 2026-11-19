@@ -3,6 +3,7 @@ title: 'Custom Fields'
 taxonomy:
     category:
         - docs
+media_order: DMS-Fields-Management.png
 ---
 
 Custom fields control what customers are asked for at checkout. Alongside standard contact and billing details, you can ask for information specific to a digital product, such as the domain where a software download will be installed. You can also offer paid extras, such as priority support, and add the selected fee to the order.
@@ -21,7 +22,7 @@ In the Joomla administrator, go to **Documents Seller → Custom Fields**.
 - Sort the list by ordering, then drag the fields into the order you want them to appear at checkout.
 - Filter by document to see its assigned fields and fields available to all documents. Use the **Fee field** filter to find fields that add charges.
 
-![Custom Fields Management](fields-management.png)
+![DMS-Fields-Management](DMS-Fields-Management.png "DMS-Fields-Management")
 
 ## Field setup guides
 

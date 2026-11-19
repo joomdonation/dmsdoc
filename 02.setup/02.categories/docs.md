@@ -1,6 +1,6 @@
 ---
 title: Categories
-media_order: 'categories.png,add-new-category.png'
+media_order: 'categories.png,add-new-category.png,DMS-Manage-Categories.png,DMS-Add-Category.png'
 taxonomy:
     category:
         - docs
@@ -17,7 +17,7 @@ Categories organize your digital downloads so customers can browse your catalog 
 2. Enter a **Name**. Leave **Parent** set to **Select category** to create a top-level category, or choose an existing published category to create a subcategory.
 3. Review the settings below and click **Save & Close**. Create and publish parent categories before adding their subcategories.
 
-![Category editor](add-new-category.png)
+![DMS-Add-Category](DMS-Add-Category.png "DMS-Add-Category")
 
 | Setting | How to use it |
 | --- | --- |
@@ -40,6 +40,6 @@ When you create or edit a [document](/setup/documents), select one or more publi
 
 On **Documents Seller → Categories**, click a category name to edit it, or use the parent filter to find a category's immediate subcategories. Select categories to publish or unpublish them from the toolbar.
 
-![Categories list with top-level categories and subcategories](categories.png)
+![DMS-Manage-Categories](DMS-Manage-Categories.png "DMS-Manage-Categories")
 
 Deleting a category removes its document assignments. Before deleting it, reassign any documents that depend on it and choose a new **Parent** for any subcategories you want to keep in the catalog.

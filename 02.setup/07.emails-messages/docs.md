@@ -3,6 +3,7 @@ title: 'Emails & Messages'
 taxonomy:
     category:
         - docs
+media_order: DMS-Manage-Messages.png
 ---
 
 Documents Seller installs English templates for order and free download emails, along with messages that appear on the storefront. You can edit them to give customers payment instructions, explain how to get their files, and translate the text into your site's language.
@@ -14,7 +15,7 @@ Documents Seller installs English templates for order and free download emails, 
 3. Keep any tags you want Documents Seller to fill in, such as `[FIRST_NAME]` or `[ORDER_DETAIL]`. Translate the text around the tags. The content you save here is shared across site languages.
 4. Click **Save** and run a test order or free download through the flow you changed. Check the storefront text, the email subject and body, and any download links or attachments.
 
-![Emails & Messages](messages.png)
+![DMS-Manage-Messages](DMS-Manage-Messages.png "DMS-Manage-Messages")
 
 ## Email templates
 

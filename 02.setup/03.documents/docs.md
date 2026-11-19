@@ -1,6 +1,6 @@
 ---
 title: Documents
-media_order: 'documents.png,add-new-document.png,tabs-data.png'
+media_order: 'DMS-Manage-Documents.png,DMS-Add-Document.png,DMS-Document-Tabs-Data.png'
 taxonomy:
     category:
         - docs
@@ -20,7 +20,7 @@ Each document delivers one file. To offer several files as a single product, suc
 6. Set **Published** to **Yes** and choose the Joomla viewing access level in **Access**. Use **Public** if guests should be able to see the listing in your catalog. [Purchase access](/getting-started/configuration/checkout-and-accounts) and free download access are configured separately.
 7. Click **Save & Close**. Open the document on your site from its category or through a [Document Detail](/frontend-menu-options/document-detail) menu item, then check the order or download flow as a customer.
 
-![Document editor](add-new-document.png)
+![DMS-Add-Document](DMS-Add-Document.png "DMS-Add-Document")
 
 ## Describe the product
 
@@ -35,7 +35,7 @@ Each document delivers one file. To offer several files as a single product, suc
 
 Use **Tabs Data** to organize additional information on the detail page, such as a table of contents, system requirements, or a changelog. Fill in **Tab1 Title** and **Tab1 Data** first, then add up to five more tabs. Each tab needs both a title and content to appear.
 
-![Tabs Data in the document editor](tabs-data.png)
+![DMS-Document-Tabs-Data](DMS-Document-Tabs-Data.png "DMS-Document-Tabs-Data")
 
 To let customers browse by tag, publish the [tags module](/frontend-menu-options/modules#tags-modules-for-documents-seller). In **Documents Seller → Tags**, you can see how often each tag has been used to open search results. To retire a tag, remove it from the documents that use it and delete it from the Tags list.
 
@@ -71,7 +71,7 @@ If this document is a Joomla extension that you sell, you can use **Update Packa
 
 Go to **Documents Seller → Documents** to search for listings, filter by category or publication status, and open a document by clicking its title. Use the toolbar to publish, unpublish, or delete selected listings. To control the storefront sequence with the list's ordering controls, set the relevant storefront sort to **Ordering**.
 
-![Documents list](documents.png)
+![DMS-Manage-Documents](DMS-Manage-Documents.png "DMS-Manage-Documents")
 
 If the **File** column shows **(File missing)** for a local download, restore the file to its original location or edit the document and assign a replacement. Clear **OR Enter File Path** if you switch to a file from **Choose File**. Changing the file also changes what eligible customers with existing orders receive.
 

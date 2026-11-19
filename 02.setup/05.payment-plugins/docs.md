@@ -1,6 +1,6 @@
 ---
 title: 'Payment Plugins'
-media_order: 'install-payment-plugin.png,os_authnet.png,os_paypal.png,payment-plugins.png,publish-unpublish.png,os_osm_offline_cash.zip,os_osm_offline_cheque.zip'
+media_order: 'DMS-Manage-Payment-Plugins.png,DMS-Install-Payment-Plugin.png'
 taxonomy:
     category:
         - docs
@@ -10,7 +10,7 @@ Payment plugins determine how customers pay for digital downloads. Publish the m
 
 Go to **Documents Seller → Payment Plugins** in the Joomla administrator to manage these plugins.
 
-![Payment Plugins list](payment-plugins.png)
+![DMS-Manage-Payment-Plugins](DMS-Manage-Payment-Plugins.png "DMS-Manage-Payment-Plugins")
 
 ## Choose a payment plugin
 
@@ -32,7 +32,7 @@ Setup guides are also available for [PayPal Pro](/setup/payment-plugins/paypal-p
 3. Click **Choose File** and select the installable ZIP package. If your download contains a separate plugin ZIP, extract the outer archive first and select the plugin ZIP.
 4. Click **Install**.
 
-![Payment plugin installation form](install-payment-plugin.png)
+![DMS-Install-Payment-Plugin](DMS-Install-Payment-Plugin.png "DMS-Install-Payment-Plugin")
 
 New plugins start unpublished. Open the plugin by clicking its **Name**, configure it, and publish it when it is ready for checkout.
 

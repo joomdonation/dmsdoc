@@ -1,6 +1,6 @@
 ---
 title: Authorize.Net
-media_order: os-authnet.png
+media_order: DMS-os-authnet.png
 taxonomy:
     category:
         - docs
@@ -15,7 +15,7 @@ The Authorize.Net AIM plugin accepts card details on the Documents Seller checko
 | **API Login** | Enter the API Login ID for your Authorize.Net account in the selected environment. |
 | **Transaction Key** | Enter the transaction key that belongs to that API Login ID. |
 
-![Authorize.Net AIM plugin settings](os-authnet.png)
+![DMS-os-authnet](DMS-os-authnet.png "DMS-os-authnet")
 
 Use credentials from your own sandbox account when testing. When you switch to **Live**, enter your live account's **API Login** and **Transaction Key**.
 

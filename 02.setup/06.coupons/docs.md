@@ -1,6 +1,6 @@
 ---
 title: Coupons
-media_order: 'coupons-management.png,new-coupon.png'
+media_order: 'DMS-Coupons-Management.png,DMS-Add-Coupon.png'
 taxonomy:
     category:
         - docs
@@ -16,7 +16,7 @@ In the Joomla administrator, open **Documents Seller → Configuration → Gener
 
 Go to **Documents Seller → Coupons** and click **New**. To edit an existing coupon, click its code in the list.
 
-![Coupons Management](coupons-management.png)
+![DMS-Coupons-Management](DMS-Coupons-Management.png "DMS-Coupons-Management")
 
 | Setting | How to use it |
 | --- | --- |
@@ -33,7 +33,7 @@ Go to **Documents Seller → Coupons** and click **New**. To edit an existing co
 
 Click **Save & Close**.
 
-![Add New Coupon](new-coupon.png)
+![DMS-Add-Coupon](DMS-Add-Coupon.png "DMS-Add-Coupon")
 
 ## Use a coupon at checkout
 

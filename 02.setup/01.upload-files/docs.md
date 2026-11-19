@@ -1,6 +1,6 @@
 ---
 title: 'Upload Files'
-media_order: 'files_management.png,upload_multiple_files.png'
+media_order: 'DMS-Files-Management.png,DMS-Upload-Files.png'
 taxonomy:
     category:
         - docs
@@ -23,9 +23,9 @@ See [Files, Downloads, and Emails](/getting-started/configuration/files-download
 2. Drag one or more files into the upload area, or click the area to select files from your computer. Uploads start automatically.
 3. When the uploads finish, close the dialog and refresh **Files** to confirm that the uploaded files appear. Clear the search box or search for the file by name if you do not see it.
 
-![File Management page](files_management.png)
+![DMS-Files-Management](DMS-Files-Management.png "DMS-Files-Management")
 
-![Upload Files dialog](upload_multiple_files.png)
+![DMS-Upload-Files](DMS-Upload-Files.png "DMS-Upload-Files")
 
 The browser uploader accepts files up to 256 MiB each. Your hosting server may impose a lower limit. If an upload fails, check the file type, file size, and write permissions for **Documents Path**. The browser uploader also rejects a file if a file with the same name already exists.
 

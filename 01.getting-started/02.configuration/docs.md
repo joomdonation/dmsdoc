@@ -3,6 +3,7 @@ title: Configuration
 taxonomy:
     category:
         - docs
+media_order: DMS-Configuration.png
 ---
 
 In the Joomla administrator, go to **Documents Seller → Configuration**. Documents Seller supplies default settings during installation. Before taking orders, review your currency and tax rate, decide who can buy or download documents, and choose how customers receive their files.
@@ -17,3 +18,6 @@ In the Joomla administrator, go to **Documents Seller → Configuration**. Docum
 For a walkthrough of the settings you need to test a first purchase, follow [Quick Start](/getting-started/quick-start).
 
 To receive extension updates through Joomla, enter your **Download ID** on the **General** tab. See [Installation](/getting-started/installation#use-joomla-update) for the Joomla Update setup steps.
+
+
+![DMS-Configuration](DMS-Configuration.png "DMS-Configuration")

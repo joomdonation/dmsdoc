@@ -4,6 +4,7 @@ taxonomy:
     category:
         - docs
 visible: true
+media_order: DMS-os-stripe_checkout.png
 ---
 
 ## Installation
@@ -21,3 +22,5 @@ Extract `os_dms_stripecheckout_unzip_first.zip` to find `os_dms_stripecheckout.z
 
 3. Select the `checkout.session.completed` event for the webhook.
 4. In the webhook settings, click **Click to reveal** to get the signing secret. Enter it in **Signing Secret** in the plugin, then save and publish the plugin.
+
+![DMS-os-stripe_checkout](DMS-os-stripe_checkout.png "DMS-os-stripe_checkout")

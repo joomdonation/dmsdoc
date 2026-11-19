@@ -1,6 +1,6 @@
 ---
 title: 'Orders Management'
-media_order: orders-management.png
+media_order: 'DMS-Manage-Orders.png,DMS-Add-Order.png,DMS-Sales-Report.png'
 taxonomy:
     category:
         - docs
@@ -10,7 +10,7 @@ In the Joomla administrator, go to **Documents Seller → Orders** to find custo
 
 Use the [Sales Report](#sales-report) to compare products in a selected period. See [Dashboard and Sales Charts](/orders-management/dashboard-and-sales-charts) for sales trends and store totals, or [Scheduled Maintenance](/plugins/scheduled-maintenance) to clean up abandoned online payment orders.
 
-![Orders Management](orders-management.png)
+![DMS-Manage-Orders](DMS-Manage-Orders.png "DMS-Manage-Orders")
 
 ## Find and edit orders
 
@@ -31,7 +31,7 @@ Create an order manually when a customer pays outside your site, such as by bank
 
 Creating an order with **Paid** status sends the corresponding customer confirmation email if its subject is configured.
 
-![Add New Order](add-new-order.png)
+![DMS-Add-Order](DMS-Add-Order.png "DMS-Add-Order")
 
 ## Publish/Approve Order
 
@@ -85,4 +85,4 @@ The report shows each published document with sales in the chosen period. **#Sal
 
 The report includes paid orders and pending offline orders, and excludes refunded orders. **Income** reflects item prices before order-level discounts and tax. Use the [order export](#export-orders) if you need the amounts recorded on individual orders.
 
-![Sales Report](sales-report.png)
+![DMS-Sales-Report](DMS-Sales-Report.png "DMS-Sales-Report")

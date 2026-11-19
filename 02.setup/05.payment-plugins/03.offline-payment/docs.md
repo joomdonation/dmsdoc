@@ -1,6 +1,6 @@
 ---
 title: 'Offline Payment'
-media_order: 'os_osm_offline_cash.zip,os_osm_offline_cheque.zip'
+media_order: DMS-os-offline.png
 taxonomy:
     category:
         - docs
@@ -27,3 +27,5 @@ Use the **Offline Payment** plugin to accept payments outside checkout, such as 
 1. Go to **Documents Seller → Orders** and open the pending order.
 2. Change **Order Status** from **Pending** to **Paid**, then save the order. You can also [publish the order from the Orders list](/orders-management).
 3. Documents Seller sends the order approval email. If **Send Documents Via Email** is enabled, it attaches the purchased files. Customers with an account can also download them through a published [Orders History](/frontend-menu-options/orders-history) menu item.
+
+![DMS-os-offline](DMS-os-offline.png "DMS-os-offline")

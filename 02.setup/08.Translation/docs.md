@@ -3,13 +3,14 @@ title: Translation
 taxonomy:
     category:
         - docs
+media_order: 'DMS-Manage-Translation.png,DMS-Translation-Add-Item.png'
 ---
 
 Translation is a very useful feature in **Documents Sellers**. It allows you to change existing language items, add new language items, translate the extension (both frontend and backend language files) to other languages without having to access to language file directly
 
 Go to **Documents Seller** -> **Translations** to access to Translation page.
 
-![Translation Management](translation.png)
+![DMS-Manage-Translation](DMS-Manage-Translation.png "DMS-Manage-Translation")
 
 ## Update / Change existing language items
 If you need to update an existing languages items, on Translation management screen, search for that language item / language string, make the change, the press Save button in the toolbar to get it saved.
@@ -23,7 +24,7 @@ To do that, please follow the steps below:
 3. Enter the **language string** corresponding to that **language key** into **Translation** textbox
 4. Press **Save** button in the toolbar
 
-![Add New Language Item](new-item.png)
+![DMS-Translation-Add-Item](DMS-Translation-Add-Item.png "DMS-Translation-Add-Item")
 
 ## Translate Language Files To New Language
 
